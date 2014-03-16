@@ -1,0 +1,745 @@
+
+Template: debian-installer/ppp-udeb/title
+Type: text
+Description: Configure and start a PPPoE connection
+Description-be.UTF-8: Наладзіць і запусціць злучэнне PPPoE
+Description-ca.UTF-8: Configura i inicia una connexió PPPoE
+Description-cs.UTF-8: Nastavit a spustit PPPoE spojení
+Description-da.UTF-8: Sæt PPPoE-forbindelse op og start den
+Description-de.UTF-8: Konfiguriere und Starte die PPPoE-Verbindung
+Description-es.UTF-8: Configurar e iniciar una conexión PPPoE
+Description-eu.UTF-8: PPPoE konexioa konfiguratu eta abiarazi
+Description-fi.UTF-8: Aseta ja käynnistä PPPoE-yhteys
+Description-fr.UTF-8: Configurer et activer les connexions réseau PPPoE
+Description-gl.UTF-8: Configurar e iniciar unha conexión de PPPoE
+Description-it.UTF-8: Configura e attiva una connessione PPPoE
+Description-ja.UTF-8: PPPoE 接続の設定と開始
+Description-nb.UTF-8: Konfigurer og start en PPPoE-forbindelse
+Description-nl.UTF-8: Een PPPoE-verbinding configureren en starten
+Description-no.UTF-8: Konfigurer og start en PPPoE-forbindelse
+Description-pl.UTF-8: Konfiguracja i uruchomienie połączenia PPPoE
+Description-pt.UTF-8: Configurar e iniciar uma ligação PPPoE
+Description-pt_BR.UTF-8: Configurar e iniciar uma conexão PPPoE
+Description-ro.UTF-8: Configurează și pornește o conexiune PPPoE
+Description-ru.UTF-8: Настройка и установка PPPoE-соединения
+Description-sv.UTF-8: Konfigurera och starta en PPPoE-anslutning
+Description-ta.UTF-8: ஒரு பிபிபிஓஈ இணைப்பை வடிவமைத்து ஆரம்பிக்கவும்.
+Description-tr.UTF-8: Bir PPPoE bağlantısı yapılandır ve başlat
+Description-vi.UTF-8: Cấu hình và khởi chạy kết nối PPPoE
+Description-zh_TW.UTF-8: 設定並啟用 PPPoE 連線
+
+Template: ppp/no_concentrators
+Type: error
+Description: No PPPoE concentrator
+ All network interfaces have been probed, but a PPPoE concentrator was
+ not detected.
+ .
+ The configuration of PPPoE has been aborted. It can be attempted again by
+ selecting the relevant menu entry.
+Description-be.UTF-8: Без канцэтратара  PPPoE
+ Усе сеткавыя інтэрфейсы былі апрабаваныя, але не вызначана PPPoE канцэнтратара.
+ .
+ Наладжванне PPPoE перарвана. Спроба можа быць здзейснена зноў выбарам адпаведнага пункта меню.
+Description-ca.UTF-8: No s'ha trobat el concentrador PPPoE
+ S'han provat totes les interfícies de xarxa, però no s'ha detectat cap concentrador PPPoE.
+ .
+ S'ha avortat la configuració del PPPoE. Podeu tornar-ho a intentar seleccionant l'entrada del menú corresponent.
+Description-cs.UTF-8: Žádný PPPoE koncentrátor
+ Byla prověřena všechna síťová rozhraní, ale nebyl rozpoznán žádný PPPoE koncentrátor.
+ .
+ Nastavení PPPoE bylo přerušeno. Můžete se pokusit o nové nastavení výběrem příslušné položky v menu.
+Description-da.UTF-8: Ingen PPPoE-concentrator
+ Alle netkort er blevet forespurgt, men der blev ikke fundet nogen PPPoE-concentator.
+ .
+ Opsætningen af PPPoE blev afbrudt. Et nyt forsøg kan foretages ved at vælge det relevante menupunkt.
+Description-de.UTF-8: Kein PPPoE-Konzentrator
+ Alle Netzschnittstellen wurden getestet, aber kein PPPoE-Konzentrator wurde erkannt.
+ .
+ Die Konfiguration von PPPoE wurde abgebrochen. Sie kann erneut versucht werden, indem der relevante Menü-Eintrag ausgewählt wird.
+Description-es.UTF-8: No se ha encontrado ningún concentrador PPPoE
+ Se han analizado todas las interfaces de red pero no se ha encontrado ningún concentrador PPPoE.
+ .
+ Se ha abortado la configuración de PPPoE. Puede intentarlo de nuevo seleccionando la opción pertinente en el menú.
+Description-eu.UTF-8: Ez da PPPoE bilgunerik aurkitu
+ Sare interfaze guztiak probatu dira baina ez da PPPoE bilgunerik topatu.
+ .
+ PPPoE konfigurazioa utzia izan da. Berriz abiarazi daiteke menutik dagokion sarrera aukeratuaz.
+Description-fi.UTF-8: Ei PPPoE-keskitintä
+ Kaikki verkkoliitynnät on tutkittu, mutta PPPoE-keskitintä ei löydetty.
+ .
+ PPPoE:n asetus on keskeytetty. Sitä voidaan yrittää uudelleen valitsemalla asiaankuuluva valikon kohta.
+Description-fr.UTF-8: Aucun concentrateur trouvé
+ Toutes les interfaces réseau ont été testées mais aucun concentrateur PPPoE n'a été détecté.
+ .
+ La configuration de PPPoE a été interrompue. Vous pouvez la tenter à nouveau en choisissant l'entrée de menu correspondante.
+Description-gl.UTF-8: Non hai un concentrador PPPoE
+ Buscouse en tódalas interfaces de rede, pero non se detectou ningún concentrador PPPoE.
+ .
+ Cancelouse a configuración de PPPoE. Pódese volver tentar escollendo a entrada de menú relevante.
+Description-ja.UTF-8: コンセントレータが見つかりません
+ すべてのネットワークインターフェイスを確認しましたが、PPPoE コンセントレータは検出されませんでした。
+ .
+ PPPoE 設定を中断しました。適切なメニューを選べば再度設定を試みることが可能です。
+Description-nb.UTF-8: Ingen PPPoE-konsentrator
+ Alle nettverksgrensesnitt ble undersøkt, men en PPPoE-konsentrator ble ikke funnet.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-nl.UTF-8: Geen PPPoE concentrator
+ Alle netwerkinterfaces zijn afgetast, maar er is geen PPPoE concentrator gevonden.
+ .
+ De configuratie van PPPoE is afgebroken. Het kan opnieuw worden geprobeerd door de relevante regel in het menu te selecteren.
+Description-no.UTF-8: Ingen PPPoE-konsentrator
+ Alle nettverksgrensesnitt ble undersøkt, men en PPPoE-konsentrator ble ikke funnet.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-pl.UTF-8: Brak koncentratora PPPoE
+ Sprawdzono wszystkie interfejsy sieciowe, ale koncentrator PPPoE nie zostałznaleziony.
+ .
+ Konfiguracja PPPoE została przerwana. Można ponowić jej próbę wybierając odpowiednią pozycję z menu.
+Description-pt.UTF-8: Não foi encontrado nenhum concentrador PPPoE
+ As interfaces de rede foram todas sondadas, mas não foi detectado nenhumconcentrador PPPoE.
+ .
+ A configuração do PPPoE foi abortada. Pode tentar novamente escolhendo a entrada relevante do menu.
+Description-pt_BR.UTF-8: Nenhum concentrador PPPoE
+ Todas as interfaces de rede foram testadas, mas nenhum concentrador PPPoE foi encontrado.
+ .
+ A configuração do PPPoE foi abortada. Ela pode ser tentada novamente através da seleção da entrada de menu relevante.
+Description-ro.UTF-8: Nici un concentrator PPPoE
+ Au fost examinate toate interfețele, dar nu a fost detectat nici un concentrator PPPoE.
+ .
+ Configurarea PPPoE a fost abandonată. Poate fi încercată din nou, prin selectarea intrării relevante din meniu.
+Description-ru.UTF-8: Нет PPPoE-концентратора.
+ Была выполнена проверка всех сетевых интерфейсов, но PPPoE-концентратор не был обнаружен.
+ .
+ Настройка PPPoE была прервана. Она может быть повторена выбором соответствующего пункта меню.
+Description-sv.UTF-8: Ingen PPPoE-koncentrator
+ Alla nätverksgränssnitt har genomsökts men ingen PPPoE-koncentrator hittades.
+ .
+ Konfigurationen av PPPoE har avbrutits. Den kan startas om genom att välja den relevanta menyposten.
+Description-tr.UTF-8: PPPoE yoğunlaştırıcısı yok
+ Bütün ağ arayüzleri araştırıldı, fakat bir PPPoE yoğunlaştırıcısı bulunamadı.
+ .
+ PPPoE yapılandırması durduruldu. İlgili menüyü kullanarak tekrar yapılandırılabilir.
+Description-vi.UTF-8: Không có bộ tập trung PPPoE
+ Mọi giao diện mạng đều đã được dò tìm, nhưng chưa phát hiện bộ tập trung PPPoE.
+ .
+ Tiến trình cấu hình PPPoE bị hủy bỏ. Vẫn còn có thể thử lại bằng cách chọn mục trình đơn thích hợp.
+Description-zh_TW.UTF-8: 沒有可用的 PPPoE 連線
+ 已搜尋過所有網路介面，但是沒有找到任何可用的 PPPoE 連線。
+ .
+ 這次 PPPoE 的設定已經取消，您可以透過選取相關選單再次設定。
+
+Template: ppp/interface
+Type: string
+Default: _
+Description: Interface name:
+ Please enter the name of the network interface connected to the PPPoE
+ modem.
+
+Template: ppp/username
+Type: string
+Description: ISP account username:
+ Please enter the username for the PPP connection.
+ .
+ This information should have been provided by your Internet Service
+ Provider.
+Description-be.UTF-8: Логін інтэрнэт-рахунка:
+ Калі ласка, увядзіце імя карыстальніка для злучэння PPP.
+ .
+ Гэтая інфармацыя павінна быць прадастаўлена вам вашым Інтэрнэт-правайдэрам.
+Description-ca.UTF-8: Nom d'usuari del compte de l'ISP:
+ Si us plau, introduïu el nom d'usuari de la connexió PPP.
+ .
+ Aquesta informació us l'hauria de proporcionar el vostre proveïdor de serveis d'Internet.
+Description-cs.UTF-8: Uživatelské jméno u poskytovatele připojení:
+ Zadejte prosím uživatelské jméno pro toto PPP spojení.
+ .
+ Tuto informaci by vám měl sdělit váš poskytovatel připojení k Internetu.
+Description-da.UTF-8: Brugernavn for ISP-konto:
+ Angiv brugernavn for PPP-forbindelsen.
+ .
+ Denne information skal du have modtaget af din internetudbyder.
+Description-de.UTF-8: Benutzername beim Internet-Diensteanbieter:
+ Bitte geben Sie den Benutzernamen für die PPP-Verbindung ein.
+ .
+ Diese Informationen sollten Ihnen von Ihrem Internet-Diensteanbieter bereitgestellt worden sein.
+Description-es.UTF-8: Nombre de usuario de la cuenta del ISP:
+ Por favor, introduzca el usuario para la conexión PPP.
+ .
+ Esta información debería de habérsela suministrado su proveedor de servicios de Internet (ISP).
+Description-eu.UTF-8: ISP kontu erabiltzaile izena:
+ Mesedez idatzi PPP konexioaren erabiltzaile izena.
+ .
+ Datu hauek zure Internet hornitzaileak eman behar izan dizkizu.
+Description-fi.UTF-8: ISP-käyttäjätunnus: 
+ Anna PPP-yhteyden käyttäjätunnus.
+ .
+ Tämä tieto sinun olisi tullut saada Internet-palveluntarjoajaltasi.
+Description-fr.UTF-8: Identifiant pour la connexion PPP :
+ Veuillez indiquer l'identifiant à utiliser pour la connexion PPP.
+ .
+ Cette information est habituellement disponible auprès de votre fournisseur d'accès Internet (« FAI »).
+Description-gl.UTF-8: Nome de usuario da conta de acceso:
+ Introduza o nome de usuario para a conexión PPP.
+ .
+ Esta información debeulla proporcionar o fornecedor de Internet.
+Description-ja.UTF-8: プロバイダのユーザ名:
+ PPP 接続のユーザ名を入力してください。
+ .
+ この情報は、あなたが利用しているプロバイダから提供されているはずです。
+Description-nb.UTF-8: Brukernavn for ISP-konto:
+ Skriv brukernavnet for PPP-forbindelsen.
+ .
+ Denne informasjonen skulle du ha fått fra din internettleverandør (ISP).
+Description-nl.UTF-8: Gebruikersnaam voor uw Internet account:
+ Geef de gebruikersnaam voor de PPP-verbinding.
+ .
+ Deze informatie zou aan u verstrekt moeten zijn door uw Internet provider (ISP).
+Description-no.UTF-8: Brukernavn for ISP-konto:
+ Skriv brukernavnet for PPP-forbindelsen.
+ .
+ Denne informasjonen skulle du ha fått fra din internettleverandør (ISP).
+Description-pl.UTF-8: Nazwa konta użytkownika u dostawcy Internetu:
+ Proszę podać nazwę użytkownika do połączenia PPP.
+ .
+ Ta informacja powinna zostać dostarczona przez Twojego dostawcę Internetu.
+Description-pt.UTF-8: Nome do utilizador da canta do ISP
+ Introduza o utilizador para a ligação PPP.
+ .
+ Esta informação deve ter sido dada pelo seu Provedor de Serviços de Internet.
+Description-pt_BR.UTF-8: Nome de usuário da conta no ISP:
+ Por favor, informe o nome de usuário para a conexão PPP.
+ .
+ Esta informação deve lhe ter sido fornecida por seu Provedor de Serviços de Internet.
+Description-ro.UTF-8: Numele de utilizator pentru contul de servicii internet:
+ Introduceți numele de utilizator pentru conexiunea PPP.
+ .
+ Această informație ar trebui să o fi primit de la furnizorul dumneavoastră de servicii internet.
+Description-ru.UTF-8: Имя пользователя для учётной записи ISP:
+ Введите имя пользователя для PPP-соединения.
+ .
+ Эту информацию должен был предоставить ваш Интернет-провайдер (ISP).
+Description-sv.UTF-8: Användarnamn hos internetleverantör:
+ Ange användarnamnet för PPP-anslutningen.
+ .
+ Denna information ska din internetleverantör ha delgivit dig.
+Description-tr.UTF-8: ISS kullanıcı adı:
+ Lütfen PPP bağlantısı için kullanıcı adınızı giriniz.
+ .
+ Bu bilgi, Internet Servis Sağlayıcınız tarafından sağlanmış olmalı.
+Description-vi.UTF-8: Tên người dùng của tài khoản ISP:
+ Hãy gõ tên người dùng cho kết nối PPP.
+ .
+ Thông tin này nên được cung cấp bởi Nhà Cung cấp Dịch vụ Internet (ISP),
+Description-zh_TW.UTF-8: ISP 使用者帳號：
+ 請輸入 PPP 連線的使用者帳號。
+ .
+ 這些資訊可以從您的網路服務提供商取得。
+
+Template: ppp/password
+Type: password
+Description: ISP account password:
+ Please enter the password for the PPP connection.
+ .
+ This information should have been provided by your Internet Service
+ Provider.
+Description-be.UTF-8: Пароль інтэрнэт-рахунка:
+ Калі ласка, увядзіце пароль для злучэння PPP.
+ .
+ Гэтая інфармацыя павінна быць прадастаўлена вам вашым Інтэрнэт-правайдэрам.
+Description-ca.UTF-8: Contrasenya del compte de l'ISP:
+ Si us plau, introduïu la contrasenya de la connexió PPP.
+ .
+ Aquesta informació us l'hauria de proporcionar el vostre proveïdor de serveis d'Internet.
+Description-cs.UTF-8: Heslo u poskytovatele připojení:
+ Zadejte prosím heslo pro toto PPP připojení.
+ .
+ Tuto informaci by vám měl sdělit váš poskytovatel připojení k Internetu.
+Description-da.UTF-8: Adgangskode for ISP-konto:
+ Angiv PPP-forbindelsens adgangskode.
+ .
+ Denne information skal du have modtaget af din internetudbyder.
+Description-de.UTF-8: Passwort beim Internet-Diensteanbieter::
+ Bitte geben Sie das Passwort für die PPP-Verbindung ein.
+ .
+ Diese Informationen sollten Ihnen von Ihrem Internet-Diensteanbieter bereitgestellt worden sein.
+Description-es.UTF-8: Contraseña de la cuenta del ISP:
+ Por favor, introduzca la contraseña para la conexión PPP.
+ .
+ Esta información debería de habérsela suministrado su proveedor de servicios de Internet (ISP).
+Description-eu.UTF-8: ISP kontu pasahitza:
+ Mesedez idatzi zure PPP konexio pasahitza.
+ .
+ Datu hauek zure Internet hornitzaileak eman behar izan dizkizu.
+Description-fi.UTF-8: ISP-salasana:
+ Anna PPP-yhteyden salasana.
+ .
+ Tämä tieto sinun olisi tullut saada Internet-palveluntarjoajaltasi.
+Description-fr.UTF-8: Mot de passe pour la connexion PPP :
+ Veuillez indiquer le mot de passe pour la connexion PPP.
+ .
+ Cette information est habituellement disponible auprès de votre fournisseur d'accès Internet (« FAI »).
+Description-gl.UTF-8: Contrasinal da conta de acceso:
+ Introduza o contrasinal para a conexión PPP.
+ .
+ Esta información debeulla proporcionar o fornecedor de Internet.
+Description-ja.UTF-8: プロバイダのパスワード:
+ PPP 接続のパスワードを入力してください。
+ .
+ この情報は、あなたが利用しているプロバイダから提供されているはずです。
+Description-nb.UTF-8: Passord for ISP-kontoen:
+ Skriv inn passordet for PPP-forbindelsen.
+ .
+ Denne informasjonen skulle du ha fått fra din internettleverandør (ISP).
+Description-nl.UTF-8: Wachtwoord voor uw Internet account:
+ Geef het wachtwoord voor de PPP-verbinding.
+ .
+ Deze informatie zou aan u verstrekt moeten zijn door uw Internet provider (ISP).
+Description-no.UTF-8: Passord for ISP-kontoen:
+ Skriv inn passordet for PPP-forbindelsen.
+ .
+ Denne informasjonen skulle du ha fått fra din internettleverandør (ISP).
+Description-pl.UTF-8: Hasło do konta użytkownika u dostawcy Internetu:
+ Proszę podać hasło do połączenia PPP.
+ .
+ Ta informacja powinna zostać dostarczona przez Twojego dostawcę Internetu.
+Description-pt.UTF-8: Palavra-chave da conta do ISP:
+ Introduza a palavra-chave para a ligação PPP.
+ .
+ Esta informação deve ter sido dada pelo seu Provedor de Serviços de Internet.
+Description-pt_BR.UTF-8: Senha da conta no ISP:
+ Por favor, informe a senha para a conexão PPP.
+ .
+ Esta informação deve lhe ter sido fornecida por seu Provedor de Serviços de Internet.
+Description-ro.UTF-8: Parola pentru contul de servicii internet:
+ Introduceți parola pentru conexiunea PPP.
+ .
+ Această informație ar trebui să o fi primit de la furnizorul dumneavoastră de servicii internet.
+Description-ru.UTF-8: Пароль учётной записи ISP:
+ Введите пароль для PPP-соединения.
+ .
+ Эту информацию должен был предоставить ваш Интернет-провайдер (ISP).
+Description-sv.UTF-8: Lösenord hos internetleverantör:
+ Ange lösenordet för PPP-anslutningen.
+ .
+ Denna information ska din internetleverantör ha delgivit dig.
+Description-tr.UTF-8: ISS parolası:
+ Lütfen PPP bağlantısı için parolanızı giriniz.
+ .
+ Bu bilgi, Internet Servis Sağlayıcınız tarafından sağlanmış olmalı.
+Description-vi.UTF-8: Mật khẩu của tài khoản ISP:
+ Hãy gõ mật khẩu cho kết nối PPP.
+ .
+ Thông tin này nên được cung cấp bởi Nhà Cung cấp Dịch vụ Internet (ISP),
+Description-zh_TW.UTF-8: ISP 使用者密碼：
+ 請輸入 PPP 連線的使用者密碼。
+ .
+ 這些資訊可以從您的網路服務提供商取得。
+
+Template: ppp/detect_failed
+Type: error
+Description: No Ethernet interface
+ PPPoE networking cannot be configured because no Ethernet interface was
+ detected.
+ .
+ The configuration of PPPoE has been aborted. It can be attempted again by
+ selecting the relevant menu entry.
+Description-be.UTF-8: Няма інтэрфейса Ethernet
+ Сеціва PPPoE не можа быць наладжана, бо не вызначана інтэрфейсаў Ethernet.
+ .
+ Наладжванне PPPoE перарвана. Спроба можа быць здзейснена зноў выбарам адпаведнага пункта меню.
+Description-ca.UTF-8: No s'ha trobat la interfície Ethernet
+ No s'ha pogut configurar la xarxa PPPoE ja que no ha estat possible detectar cap interfície Ethernet.
+ .
+ S'ha avortat la configuració del PPPoE. Podeu tornar-ho a intentar seleccionant l'entrada del menú corresponent.
+Description-cs.UTF-8: Žádné ethernetové rozhraní
+ Síťování pomocí PPPoE nemůže být nastaveno, protože nebylo rozpoznáno žádné ethernetové rozhraní.
+ .
+ Nastavení PPPoE bylo přerušeno. Můžete se pokusit o nové nastavení výběrem příslušné položky v menu.
+Description-da.UTF-8: Intet Ethernet-netkort
+ PPPoE-netværk kan ikke sættes op, da der ikke blev fundet et Ethernet-netkort.
+ .
+ Opsætningen af PPPoE blev afbrudt. Et nyt forsøg kan foretages ved at vælge det relevante menupunkt.
+Description-de.UTF-8: Keine Ethernet-Schnittstellen
+ PPPoE-Vernetzung kann nicht konfiguriert werden, da keine Ethernet-Schnittstelle erkannt wurde.
+ .
+ Die Konfiguration von PPPoE wurde abgebrochen. Sie kann erneut versucht werden, indem der relevante Menü-Eintrag ausgewählt wird.
+Description-es.UTF-8: No hay una interfaz Ethernet
+ La conexión PPPoE no se pudo configurar debido a que no se han detectado interfaces Ethernet.
+ .
+ Se ha abortado la configuración de PPPoE. Puede intentarlo de nuevo seleccionando la opción pertinente en el menú.
+Description-eu.UTF-8: Ez da Ethernet interfazerik aurkitu
+ PPPoE sarea ezin izan da konfiguratu ez bait da ethernet interfazerik atzeman.
+ .
+ PPPoE konfigurazioa utzia izan da. Berriz abiarazi daiteke menutik dagokion sarrera aukeratuaz.
+Description-fi.UTF-8: Ei Ethernet-liityntää
+ PPPoE-verkkoyhteyttä ei voida asettaa, koska yhtään Ethernet-liityntää ei havaittu.
+ .
+ PPPoE:n asetus on keskeytetty. Sitä voidaan yrittää uudelleen valitsemalla asiaankuuluva valikon kohta.
+Description-fr.UTF-8: Aucune interface Ethernet
+ La configuration PPPoE n'a pas pu être effectuée car aucune interface Ethernet n'a été détectée.
+ .
+ La configuration de PPPoE a été interrompue. Vous pouvez la tenter à nouveau en choisissant l'entrée de menu correspondante.
+Description-gl.UTF-8: Ningunha interface Ethernet
+ Non se pode configurar a rede PPPoE porque non se detectou ningunha interface Ethernet.
+ .
+ Cancelouse a configuración de PPPoE. Pódese volver tentar escollendo a entrada de menú relevante.
+Description-ja.UTF-8: イーサネットインターフェイスが見つかりません
+ イーサネットインターフェイスが検出されなかったので、PPPoE ネットワーク接続の設定は行われません。
+ .
+ PPPoE 設定を中断しました。適切なメニューを選べば再度設定を試みることが可能です。
+Description-nb.UTF-8: Intet Ethernet-grensesnitt
+ PPPoE-nettverk kan ikke konfigureres fordi intet Ethernet-grensesnitt ble funnet.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-nl.UTF-8: Geen Ethernet-interface
+ Er is geen Ethernet-interface gevonden en daardoor is het niet mogelijk PPPoE te configureren.
+ .
+ De configuratie van PPPoE is afgebroken. Het kan opnieuw worden geprobeerd door de relevante regel in het menu te selecteren.
+Description-no.UTF-8: Intet Ethernet-grensesnitt
+ PPPoE-nettverk kan ikke konfigureres fordi intet Ethernet-grensesnitt ble funnet.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-pl.UTF-8: Brak interfejsu Ethernet
+ Połączenie PPPoE nie może zostać skonfigurowane ponieważ nie wykryto interfejsu Ethernet.
+ .
+ Konfiguracja PPPoE została przerwana. Można ponowić jej próbę wybierając odpowiednią pozycję z menu.
+Description-pt.UTF-8: Nenhuma interface Ethernet
+ A rede PPPoE não pode ser configurada porque não foi detectada nenhuma interface Ethernet.
+ .
+ A configuração do PPPoE foi abortada. Pode tentar novamente escolhendo a entrada relevante do menu.
+Description-pt_BR.UTF-8: Nenhuma interface Ethernet
+ Não foi possível configurar a rede PPPoE porque nenhuma interface Ethernet foi detectada.
+ .
+ A configuração do PPPoE foi abortada. Ela pode ser tentada novamente através da seleção da entrada de menu relevante.
+Description-ro.UTF-8: Nici o interfață Ethernet
+ Conectarea prin PPPoE nu poate fi configurată deoarece nu a fost detectată nici o interfață Ethernet.
+ .
+ Configurarea PPPoE a fost abandonată. Poate fi încercată din nou, prin selectarea intrării relevante din meniu.
+Description-ru.UTF-8: Нет Ethernet-интерфейса.
+ Настройка соединения PPPoE невозможна, так как не был обнаружен ни один Ethernet-интерфейс.
+ .
+ Настройка PPPoE была прервана. Она может быть повторена выбором соответствующего пункта меню.
+Description-sv.UTF-8: Inget Ethernet-gränssnitt
+ PPPoE-nätverket kan inte konfigureras på grund av att inget Ethernet-gränssnitt hittades.
+ .
+ Konfigurationen av PPPoE har avbrutits. Den kan startas om genom att välja den relevanta menyposten.
+Description-tr.UTF-8: Ethernet arayüzü yok
+ PPPoE ağı yapılandırılamadı çünkü Ethernet arayüzü bulunamadı
+ .
+ PPPoE yapılandırması durduruldu. İlgili menüyü kullanarak tekrar yapılandırılabilir.
+Description-vi.UTF-8: Không có giao diện Ethernet
+ Không thể cấu hình chức năng chạy mạng PPPoE vì chưa phát hiện giao diện Ethernet.
+ .
+ Tiến trình cấu hình PPPoE bị hủy bỏ. Vẫn còn có thể thử lại bằng cách chọn mục trình đơn thích hợp.
+Description-zh_TW.UTF-8: 無任何網路介面
+ 無法設定 PPPoE 網路，因為找不到任何網路介面卡。
+ .
+ 這次 PPPoE 的設定已經取消，您可以透過選取相關選單再次設定。
+
+Template: ppp/detect_progress
+Type: text
+Description: Searching for concentrators on ${IFACE}...
+Description-be.UTF-8: Пошук канцэнтратараў на ${IFACE}...
+Description-ca.UTF-8: S'està cercant un concentrador a ${IFACE}...
+Description-cs.UTF-8: Hledám koncentrátory na ${IFACE}...
+Description-da.UTF-8: Søger efter concentratorer på ${IFACE}...
+Description-de.UTF-8: Suche nach Konzentratoren auf ${IFACE}...
+Description-es.UTF-8: Buscando servidores PPPoE en ${IFACE}...
+Description-eu.UTF-8: ${IFACE} interfazean bilgunearen bila7...
+Description-fi.UTF-8: Etsitään keskittimiä liitynnästä ${IFACE}...
+Description-fr.UTF-8: Recherche de concentrateurs sur ${IFACE}...
+Description-gl.UTF-8: A buscar concentradores en ${IFACE}...
+Description-it.UTF-8: Ricerca di concentratori su ${IFACE}...
+Description-ja.UTF-8: ${IFACE} に繋がっているコンセントレータを探しています…
+Description-nb.UTF-8: Søk etter konsentratorer på ${IFACE} ...
+Description-nl.UTF-8: Bezig met zoeken van concentrators op ${IFACE}...
+Description-no.UTF-8: Søk etter konsentratorer på ${IFACE} ...
+Description-pl.UTF-8: Szukanie koncentratorów w ${IFACE}...
+Description-pt.UTF-8: A procurar por concentradores em ${IFACE}...
+Description-pt_BR.UTF-8: Procurando por concentradores na ${IFACE}...
+Description-ro.UTF-8: Se caută concentratoare prin ${IFACE}...
+Description-ru.UTF-8: Поиск PPPoE-концентраторов интерфейса ${IFACE}...
+Description-sv.UTF-8: Söker efter koncentratorer på ${IFACE}...
+Description-ta.UTF-8: ${IFACE}  இல் ...குவிப்பிகளுக்கு தேடுகிறது.
+Description-tr.UTF-8: ${IFACE} üzerinde yoğunlaştırıcı aranıyor...
+Description-vi.UTF-8: Đang tìm kiếm bộ tập trung trên ${IFACE}...
+Description-zh_TW.UTF-8: 在 ${IFACE} 上搜尋可用的連線...
+
+Template: ppp/wrong_login
+Type: error
+Description: Failed authentication
+ A PPPoE connection was attempted, but the provided login information was
+ probably incorrect.
+ .
+ Please check the username and password you provided.
+ .
+ The configuration of PPPoE has been aborted. It can be attempted again by
+ selecting the relevant menu entry.
+Description-be.UTF-8: Спраўджванне не атрымалася
+ Спроба злучэння PPPoE была здзейснена, але прадастаўленыя звесткі ўвахода некарэктныя.
+ .
+ Калі ласка, праверце ўведзеныя логін ды пароль.
+ .
+ Наладжванне PPPoE перарвана. Спроба можа быць здзейснена зноў выбарам адпаведнага пункта меню.
+Description-ca.UTF-8: L'autenticació ha fallat
+ S'ha intentat establir una connexió PPPoE, però el nom d'usuari indicat segurament és incorrecte.
+ .
+ Comproveu el nom d'usuari i la contrasenya que heu introduït.
+ .
+ S'ha avortat la configuració del PPPoE. Podeu tornar-ho a intentar seleccionant l'entrada del menú corresponent.
+Description-cs.UTF-8: Autentizace se nezdařila
+ Pokus o PPPoE spojení selhal, nejspíše kvůli chybným přihlašovacím údajům.
+ .
+ Zkontrolujte prosím, zda jste zadali správné uživatelské jméno a heslo.
+ .
+ Nastavení PPPoE bylo přerušeno. Můžete se pokusit o nové nastavení výběrem příslušné položky v menu.
+Description-da.UTF-8: Mislykket autentifikation
+ Det blev forsøgt at forbinde med PPPoE, men de givne logind-oplysninger var ugyldige.
+ .
+ Sørg for at skrive det korrekte brugernavn og adgangskode.
+ .
+ Opsætningen af PPPoE blev afbrudt. Et nyt forsøg kan foretages ved at vælge det relevante menupunkt.
+Description-de.UTF-8: Fehlgeschlagene Authentifikation
+ Es wurde ein PPPoE-Verbindungsaufbau versucht, aber die angegebenen Anmeldeinformationen waren wahrscheinlich nicht korrekt.
+ .
+ Bitte überprüfen Sie den angegebenen Benutzernamen und das angegebene Passwort.
+ .
+ Die Konfiguration von PPPoE wurde abgebrochen. Sie kann erneut versucht werden, indem der relevante Menü-Eintrag ausgewählt wird.
+Description-es.UTF-8: Falló la autenticación
+ Se intentó iniciar una conexión PPPoE pero la información de acceso proporcionada es posiblemente incorrecta.
+ .
+ Compruebe el nombre de usuario y contraseñas suministrados.
+ .
+ Se ha abortado la configuración de PPPoE. Puede intentarlo de nuevo seleccionando la opción pertinente en el menú.
+Description-eu.UTF-8: Egiaztapenak huts egin du
+ PPPoE konexio saiekare egin da baina hornitzaile saio hasiera datuak ziurrenik okerrak dira.
+ .
+ Mesedez ziurtatu zaitez erabiltzaile izen eta pasahitz zuzenak idatzi dituzula.
+ .
+ PPPoE konfigurazioa utzia izan da. Berriz abiarazi daiteke menutik dagokion sarrera aukeratuaz.
+Description-fi.UTF-8: Tunnistautuminen epäonnistui
+ PPPoE-yhteyttä yritettiin luoda, mutta annetut kirjautumistiedot olivat luultavasti virheellisiä.
+ .
+ Tarkista antamasi käyttäjätunnus ja salasana.
+ .
+ PPPoE:n asetus on keskeytetty. Sitä voidaan yrittää uudelleen valitsemalla asiaankuuluva valikon kohta.
+Description-fr.UTF-8: Identification échouée
+ Une tentative de connexion PPPoE a eu lieu mais l'identification a échoué, probablement à cause d'un mauvais identifiant ou d'un mauvais mot de passe.
+ .
+ Veuillez vérifier que vous avez indiqué les bons identifiant et mot de passe.
+ .
+ La configuration de PPPoE a été interrompue. Vous pouvez la tenter à nouveau en choisissant l'entrée de menu correspondante.
+Description-gl.UTF-8: A autenticación fallou
+ Tentouse establecer unha conexión PPPoE, pero a información de identificación que se forneceu probablemente non era correcta.
+ .
+ Comprobe o nome de usuario e contrasinal que forneceu.
+ .
+ Cancelouse a configuración de PPPoE. Pódese volver tentar escollendo a entrada de menú relevante.
+Description-ja.UTF-8: 認証に失敗しました
+ PPPoE 接続を行おうとしましたが、入力されたログイン情報におそらく間違いがあります。
+ .
+ ユーザ名とパスワードを確認してください。
+ .
+ PPPoE 設定を中断しました。適切なメニューを選べば再度設定を試みることが可能です。
+Description-nb.UTF-8: Autentisering feilet
+ En PPPoE-forbindelse ble forsøkt opprettet, men den oppgitte innloggingsinformasjonen var sannsynligvis feil. 
+ .
+ Sjekk at du skriver riktig brukernavn og passord.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-nl.UTF-8: Authenticatie mislukt
+ Geprobeerd is een PPPoE-verbinding tot stand te brengen, maar waarschijnlijk waren de opgegeven login-gegevens onjuist.
+ .
+ Controleer de juistheid van uw gebruikersnaam en wachtwoord.
+ .
+ De configuratie van PPPoE is afgebroken. Het kan opnieuw worden geprobeerd door de relevante regel in het menu te selecteren.
+Description-no.UTF-8: Autentisering feilet
+ En PPPoE-forbindelse ble forsøkt opprettet, men den oppgitte innloggingsinformasjonen var sannsynligvis feil. 
+ .
+ Sjekk at du skriver riktig brukernavn og passord.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-pl.UTF-8: Błąd podczas uwierzytelniania
+ Próbowano nawiązać połączenie PPPoE, ale prawdopodobnie podano nieprawidłowe dane.
+ .
+ Proszę sprawdzić podaną nazwę użytkownika i hasło.
+ .
+ Konfiguracja PPPoE została przerwana. Można ponowić jej próbę wybierając odpowiednią pozycję z menu.
+Description-pt.UTF-8: A autenticação falhou
+ Foi tentada uma ligação PPPoE, mas a informação de login dada provavelemente estava incorrecta.
+ .
+ Por favor verifique o nome de utilizador e a palavra-chave que introduziu.
+ .
+ A configuração do PPPoE foi abortada. Pode tentar novamente escolhendo a entrada relevante do menu.
+Description-pt_BR.UTF-8: Autenticação falhou
+ Uma conexão PPPoE foi tentada, mas a informação de login fornecida provavelmente estava incorreta.
+ .
+ Por favor, verifique o nome de usuário e senha que você informou.
+ .
+ A configuração do PPPoE foi abortada. Ela pode ser tentada novamente através da seleção da entrada de menu relevante.
+Description-ro.UTF-8: Autentificarea a eșuat
+ S-a încercat conectarea PPPoE, însă informațiile de autentificare furnizate probabil că au fost incorecte.
+ .
+ Verificați numele de utilizator și parola pe care ați introdus-o.
+ .
+ Configurarea PPPoE a fost abandonată. Poate fi încercată din nou, prin selectarea intrării relevante din meniu.
+Description-ru.UTF-8: Ошибка аутентификации.
+ Была предпринята попытка PPPoE-соединения, но указанная регистрационная информация, вероятно, ошибочна.
+ .
+ Проверьте указанные имя пользователя и пароль.
+ .
+ Настройка PPPoE была прервана. Она может быть повторена выбором соответствующего пункта меню.
+Description-sv.UTF-8: Autentisering misslyckades
+ En PPPoE-anslutning försöktes men den tillhandahållna inloggningsinformationen var troligen felaktig.
+ .
+ Kontrollera det användarnamn och lösenord du angav.
+ .
+ Konfigurationen av PPPoE har avbrutits. Den kan startas om genom att välja den relevanta menyposten.
+Description-tr.UTF-8: Doğrulama başarısız
+ Bir PPPoE bağlantısı kurulmaya çalışıldı, fakat verdiğiniz giriş bilgileri muhtemelen yanlış.
+ .
+ Lütfen girdiğiniz kullanıcı adı ve parolayı kontrol ediniz.
+ .
+ PPPoE yapılandırması durduruldu. İlgili menüyü kullanarak tekrar yapılandırılabilir.
+Description-vi.UTF-8: Lỗi xác thực
+ Đã thử kết nối PPPoE, nhưng thông tin đăng nhập đã cung cấp rất có thể không đúng.
+ .
+ Hãy kiểm tra lại tên người dùng và mật khẩu bạn đã cung cấp.
+ .
+ Tiến trình cấu hình PPPoE bị hủy bỏ. Vẫn còn có thể thử lại bằng cách chọn mục trình đơn thích hợp.
+Description-zh_TW.UTF-8: 認證失敗
+ 嘗試 PPPoE 連線失敗，提供的登入資訊可能有誤。
+ .
+ 請檢查使用者名稱與密碼是否正確。
+ .
+ 這次 PPPoE 的設定已經取消，您可以透過選取相關選單再次設定。
+
+Template: ppp/unhandled
+Type: error
+Description: Unhandled error
+ An unidentified error happened while attempting to create a connection.
+ .
+ The configuration of PPPoE has been aborted. It can be attempted again by
+ selecting the relevant menu entry.
+Description-be.UTF-8: Неапрацавальная памылка
+ Невызначаная памылка адбылася падчас спробы злучэння.
+ .
+ Наладжванне PPPoE перарвана. Спроба можа быць здзейснена зноў выбарам адпаведнага пункта меню.
+Description-ca.UTF-8: Error inesperat
+ S'ha trobat un error no identificat mentre s'intentava establir la connexió.
+ .
+ S'ha avortat la configuració del PPPoE. Podeu tornar-ho a intentar seleccionant l'entrada del menú corresponent.
+Description-cs.UTF-8: Neošetřená chyba
+ Při pokusu o navázání spojení se vyskytla neznámá chyba.
+ .
+ Nastavení PPPoE bylo přerušeno. Můžete se pokusit o nové nastavení výběrem příslušné položky v menu.
+Description-da.UTF-8: Ikke-håndteret fejl
+ Der opstod en uidentificeret fejl under forsøg på at oprette en forbindelse.
+ .
+ Opsætningen af PPPoE blev afbrudt. Et nyt forsøg kan foretages ved at vælge det relevante menupunkt.
+Description-de.UTF-8: Nicht-behandelter Fehler
+ Ein nicht-identifizierter Fehler trat beim Versuch des Verbindungsaufbaus auf.
+ .
+ Die Konfiguration von PPPoE wurde abgebrochen. Sie kann erneut versucht werden, indem der relevante Menü-Eintrag ausgewählt wird.
+Description-es.UTF-8: Error no manejado
+ Se ha producido un error no identificado mientras se intentaba establecer la conexión.
+ .
+ Se ha abortado la configuración de PPPoE. Puede intentarlo de nuevo seleccionando la opción pertinente en el menú.
+Description-eu.UTF-8: Errore kudeaezina
+ Identifikazio errore bat gertatu da konexio bat sortzen saiatzean.
+ .
+ PPPoE konfigurazioa utzia izan da. Berriz abiarazi daiteke menutik dagokion sarrera aukeratuaz.
+Description-fi.UTF-8: Käsittelemätön virhe
+ Luotaessa yhteyttä tapahtui tuntematon virhe.
+ .
+ PPPoE:n asetus on keskeytetty. Sitä voidaan yrittää uudelleen valitsemalla asiaankuuluva valikon kohta.
+Description-fr.UTF-8: Erreur inconnue
+ Une erreur inconnue s'est produite lors de la tentative de création de la connexion.
+ .
+ La configuration de PPPoE a été interrompue. Vous pouvez la tenter à nouveau en choisissant l'entrée de menu correspondante.
+Description-gl.UTF-8: Erro descoñecido
+ Houbo un erro non identificado mentres se tentaba crear a conexión.
+ .
+ Cancelouse a configuración de PPPoE. Pódese volver tentar escollendo a entrada de menú relevante.
+Description-ja.UTF-8: 予期しないエラーが発生しました
+ 接続を試みた際に不明なエラーが発生しました。
+ .
+ PPPoE 設定を中断しました。適切なメニューを選べば再度設定を試みることが可能です。
+Description-nb.UTF-8: Ukjent feil
+ En uidentifisert feil oppstod under forsøket på å opprette en forbindelse.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-nl.UTF-8: Onbekende fout
+ Er heeft zich een onverwachte fout voorgedaan bij het tot stand brengen van een verbinding.
+ .
+ De configuratie van PPPoE is afgebroken. Het kan opnieuw worden geprobeerd door de relevante regel in het menu te selecteren.
+Description-no.UTF-8: Ukjent feil
+ En uidentifisert feil oppstod under forsøket på å opprette en forbindelse.
+ .
+ Konfigurasjonen av PPPoE ble avbrutt. Man kan prøve igjen ved å velge relevant menyoppføring.
+Description-pl.UTF-8: Nieobsługiwany błąd
+ W trakcie próby utworzenia połączenia wystąpił niezidentyfikowany błąd.
+ .
+ Konfiguracja PPPoE została przerwana. Można ponowić jej próbę wybierając odpowiednią pozycję z menu.
+Description-pt.UTF-8: Erro desconhecido
+ Ocorreu um erro não identificado ao tentar criar uma ligação.
+ .
+ A configuração do PPPoE foi abortada. Pode tentar novamente escolhendo a entrada relevante do menu.
+Description-pt_BR.UTF-8: Erro desconhecido
+ Um erro não identificado aconteceu ao tentar criar uma conexão.
+ .
+ A configuração do PPPoE foi abortada. Ela pode ser tentada novamente através da seleção da entrada de menu relevante.
+Description-ro.UTF-8: Eroare netratată
+ A avut loc o eroare neidentificată în timp ce se încerca crearea conexiunii.
+ .
+ Configurarea PPPoE a fost abandonată. Poate fi încercată din nou, prin selectarea intrării relevante din meniu.
+Description-ru.UTF-8: Необработанная ошибка.
+ При попытке соединения произошла неизвестная ошибка.
+ .
+ Настройка PPPoE была прервана. Она может быть повторена выбором соответствующего пункта меню.
+Description-sv.UTF-8: Ohanterat fel
+ Ett oidentifierat fel inträffade medan ett försök till uppkoppling gjordes.
+ .
+ Konfigurationen av PPPoE har avbrutits. Den kan startas om genom att välja den relevanta menyposten.
+Description-tr.UTF-8: Yakalanamayan hata
+ Bağlantı kurulmaya çalışılırken, tanımlanamayan bir hata oluştu.
+ .
+ PPPoE yapılandırması durduruldu. İlgili menüyü kullanarak tekrar yapılandırılabilir.
+Description-vi.UTF-8: Lỗi chưa xử lý
+ Gặp lỗi không rõ khi thử thiết lập kết nối.
+ .
+ Tiến trình cấu hình PPPoE bị hủy bỏ. Vẫn còn có thể thử lại bằng cách chọn mục trình đơn thích hợp.
+Description-zh_TW.UTF-8: 無法處理的錯誤
+ 嘗試建立連線時發生無法辨識的錯誤。
+ .
+ 這次 PPPoE 的設定已經取消，您可以透過選取相關選單再次設定。
+
+Template: ppp/please_wait
+Type: text
+Description: Please wait...
+Description-be.UTF-8: Калі ласка, чакайце...
+Description-ca.UTF-8: Si us plau, espereu...
+Description-cs.UTF-8: Prosím čekejte...
+Description-da.UTF-8: Vent venligst...
+Description-de.UTF-8: Bitte warten ...
+Description-es.UTF-8: Espere por favor...
+Description-eu.UTF-8: Itxoin mesedez...
+Description-fi.UTF-8: Odota...
+Description-fr.UTF-8: Veuillez patienter...
+Description-gl.UTF-8: Por favor, agarde...
+Description-it.UTF-8: Attendere...
+Description-ja.UTF-8: しばらくお待ちください...
+Description-nb.UTF-8: Vent litt ...
+Description-nl.UTF-8: Even geduld...
+Description-no.UTF-8: Vent litt ...
+Description-pl.UTF-8: Proszę czekać...
+Description-pt.UTF-8: Por favor aguarde...
+Description-pt_BR.UTF-8: Por favor, aguarde...
+Description-ro.UTF-8: Vă rugăm să așteptați...
+Description-ru.UTF-8: Пожалуйста подождите...
+Description-sv.UTF-8: Var god vänta...
+Description-ta.UTF-8: பொறுத்திருக்கவும்...
+Description-tr.UTF-8: Lütfen bekleyin...
+Description-vi.UTF-8: Hãy đợi...
+Description-zh_TW.UTF-8: 請稍候...

@@ -1,0 +1,111 @@
+--- a/extra/options
++++ b/extra/options
+@@ -32,11 +32,12 @@
+ # Please do not disable this setting. It is expected to be standard in
+ # future releases of pppd. Use the call option (see manpage) to disable
+ # authentication for specific peers.
+-auth
++#auth
+ 
+ # Use hardware flow control (i.e. RTS/CTS) to control the flow of data
+ # on the serial port.
+-crtscts
++#crtscts
++nocrtscts
+ 
+ # Use software flow control (i.e. XON/XOFF) to control the flow of data
+ # on the serial port.
+@@ -70,7 +71,7 @@
+ # Use the modem control lines.  On Ultrix, this option implies hardware
+ # flow control, as for the crtscts option.  (This option is not fully
+ # implemented.)
+-modem
++#modem
+ 
+ # Set the MRU [Maximum Receive Unit] value to <n> for negotiation.  pppd
+ # will ask the peer to send packets of no more than <n> bytes. The
+@@ -94,7 +95,7 @@
+ # attempt to initiate a connection; if no reply is received from the
+ # peer, pppd will then just wait passively for a valid LCP packet from
+ # the peer (instead of exiting, as it does without this option).
+-#passive
++passive
+ 
+ # With this option, pppd will not transmit LCP packets to initiate a
+ # connection until a valid LCP packet is received from the peer (as for
+@@ -115,7 +116,7 @@
+ 
+ # Don't fork to become a background process (otherwise pppd will do so
+ # if a serial device is specified).
+-#-detach
++-detach
+ 
+ # Disable IP address negotiation (with this option, the remote IP
+ # address must be specified with an option on the command line or in
+@@ -176,7 +177,7 @@
+ # general debug messages, 2 to request that the contents of received
+ # packets be printed, and 4 to request that the contents of transmitted
+ # packets be printed.
+-#kdebug n
++#kdebug 7
+ 
+ # Set the MTU [Maximum Transmit Unit] value to <n>. Unless the peer
+ # requests a smaller value via MRU negotiation, pppd will request that
+@@ -204,7 +205,7 @@
+ # Add an entry to this system's ARP [Address Resolution Protocol]
+ # table with the IP address of the peer and the Ethernet address of this
+ # system.
+-#proxyarp
++proxyarp
+ 
+ # Use the system password database for authenticating the peer using
+ # PAP. Note: mgetty already provides this option. If this is specified
+@@ -215,7 +216,7 @@
+ # peer every n seconds. Normally the peer should respond to the echo-request
+ # by sending an echo-reply. This option can be used with the
+ # lcp-echo-failure option to detect that the peer is no longer connected.
+-lcp-echo-interval 30
++#lcp-echo-interval 30
+ 
+ # If this option is given, pppd will presume the peer to be dead if n
+ # LCP echo-requests are sent without receiving a valid LCP echo-reply.
+@@ -224,7 +225,7 @@
+ # This option can be used to enable pppd to terminate after the physical
+ # connection has been broken (e.g., the modem has hung up) in
+ # situations where no hardware modem control lines are available.
+-lcp-echo-failure 4
++#lcp-echo-failure 4
+ 
+ # Set the LCP restart interval (retransmission timeout) to <n> seconds
+ # (default 3).
+@@ -298,7 +299,7 @@
+ 
+ # Exit once a connection has been made and terminated. This is the default,
+ # unless the `persist' or `demand' option has been specified.
+-#nopersist
++nopersist
+ 
+ # Do not exit after a connection is terminated; instead try to reopen
+ # the connection.
+@@ -306,7 +307,7 @@
+ 
+ # Terminate after n consecutive failed connection attempts.
+ # A value of 0 means no limit. The default value is 10.
+-#maxfail <n>
++maxfail 0
+ 
+ # Initiate the link only on demand, i.e. when data traffic is present. 
+ # With this option, the remote IP address must be specified by the user on
+@@ -345,4 +346,12 @@
+ # The filter expression is akin to that of tcpdump(1)
+ #active-filter <filter-expression>
+ 
++# Vyatta selected options
++ipcp-accept-local
++ipcp-accept-remote
++mppe-stateful
++updetach
++ktune
++lcp-max-configure 99999
++
+ # ---<End of File>---

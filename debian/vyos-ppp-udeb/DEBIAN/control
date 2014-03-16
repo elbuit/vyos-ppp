@@ -1,0 +1,18 @@
+Package: vyos-ppp-udeb
+Source: vyos-ppp
+Version: 2.4.5-5.2
+Architecture: amd64
+Installer-Menu-Item: 1700
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 335
+Depends: libc6-udeb (>= 2.11), cdebconf-udeb, ethernet-card-detection, ppp-modules, di-utils
+Provides: configured-network
+Section: debian-installer
+Priority: optional
+Description: Point-to-Point Protocol (PPP) - package for Debian Installer
+ The Point-to-Point Protocol provides a standard way to transmit
+ datagrams over a serial link, as well as a standard way for the machines
+ at either end of the link to negotiate various optional characteristics
+ of the link.
+ .
+ This package is a minimal ppp package used by the Debian Installer.

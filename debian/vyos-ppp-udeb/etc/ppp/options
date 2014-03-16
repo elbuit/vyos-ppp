@@ -1,0 +1,14 @@
+asyncmap 0
+nocrtscts
+lock
+hide-password
+passive
+proxyarp
+nopersist
+maxfail 0
+ipcp-accept-local
+ipcp-accept-remote
+mppe-stateful
+updetach
+ktune
+lcp-max-configure 99999
